@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication2.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" defaultButton="true" layoutX="191.0" layoutY="141.0" onAction="#handleButtonAction" text="Convert!" />
+        <Label fx:id="outputField" layoutX="152.0" layoutY="79.0" minHeight="16" minWidth="69" prefHeight="21.0" prefWidth="154.0" textAlignment="CENTER" />
+      <Button fx:id="button2" cancelButton="true" layoutX="54.0" layoutY="141.0" mnemonicParsing="false" onAction="#handleCancelBtn" text="Quit" />
+      <TextField fx:id="inputField" layoutX="127.0" layoutY="27.0" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="179.0" />
+      <Label layoutX="15.0" layoutY="32.0" prefHeight="21.0" prefWidth="127.0" text="Infix expression:" />
+      <Label layoutX="15.0" layoutY="79.0" text="Postfix notation:" />
+    </children>
+</AnchorPane>
