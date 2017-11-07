@@ -1,0 +1,6 @@
+language: java
+env:
+  global:
+    - COVERALLS_REPO_TOKEN=tFepUUM347JSUjo2V0B1PZvS0vS1oats4
+    - SERVICE_NAME=travis-ci
+
